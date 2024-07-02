@@ -1,0 +1,83 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #272B30;
+}
+p{
+    margin: 0;
+}
+
+div.h-25{
+    background-image: url("../images/wraper.png");
+    background-position: center;
+    background-size: cover;
+}
+.h-10{
+    height: 10%;
+}
+nav.navbar{
+    background-color: #3A497B !important;
+}
+nav.navbar a.active{
+    color: #0E92C5 !important;
+}
+nav.navbar a.nav-link{
+    font-size: 0.8rem;
+}
+nav.navbar h1{
+    font-size: 1.2rem;
+}
+
+
+
+div.card{
+    background-color: #272B30;
+    transition: all 500ms;
+    font-size: 0.9rem;
+}
+div.card img{
+    filter: grayscale(0.7);
+    transition: all 500ms;
+}
+div.card p.description{
+    color: grey;
+}
+
+
+div.card:hover{
+    transform: scale(1.05);
+}
+div.card:hover img{
+    filter: grayscale(0);
+}
+span.badge{
+    background-color: #32383E;
+    font-weight: 800;
+    font-size: 0.7rem;
+}
+span.free{
+    background-color: #3A497B !important;
+    transition: all 500ms;
+}
+div.card:hover span.free{
+ background-color: #2571F2 !important;
+}
+
+
+
+div.icon i{
+    color: grey;
+}
+
+div.icon i:hover{
+    color: white;
+}
+span.info{
+    background-color: #0CCAF0;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+div.spin{
+    background-color: rgba(0, 0, 0, 0.5);
+}
